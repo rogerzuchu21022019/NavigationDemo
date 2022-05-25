@@ -13,6 +13,8 @@
 		95BD20DB282A219A00859D85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95BD20D9282A219A00859D85 /* Main.storyboard */; };
 		95BD20DD282A219B00859D85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95BD20DC282A219B00859D85 /* Assets.xcassets */; };
 		95BD20E0282A219B00859D85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95BD20DE282A219B00859D85 /* LaunchScreen.storyboard */; };
+		95BD20E9282A220700859D85 /* BlueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BD20E8282A220700859D85 /* BlueVC.swift */; };
+		95BD20EB282A533800859D85 /* YellowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BD20EA282A533800859D85 /* YellowVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		95BD20DC282A219B00859D85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95BD20DF282A219B00859D85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95BD20E1282A219B00859D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95BD20E8282A220700859D85 /* BlueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueVC.swift; sourceTree = "<group>"; };
+		95BD20EA282A533800859D85 /* YellowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		95BD20D2282A219A00859D85 /* NavigationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				95BD20E7282A21DB00859D85 /* ViewController */,
 				95BD20D3282A219A00859D85 /* AppDelegate.swift */,
 				95BD20D5282A219A00859D85 /* SceneDelegate.swift */,
 				95BD20D7282A219A00859D85 /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				95BD20E1282A219B00859D85 /* Info.plist */,
 			);
 			path = NavigationDemo;
+			sourceTree = "<group>";
+		};
+		95BD20E7282A21DB00859D85 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				95BD20E8282A220700859D85 /* BlueVC.swift */,
+				95BD20EA282A533800859D85 /* YellowVC.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95BD20EB282A533800859D85 /* YellowVC.swift in Sources */,
+				95BD20E9282A220700859D85 /* BlueVC.swift in Sources */,
 				95BD20D8282A219A00859D85 /* ViewController.swift in Sources */,
 				95BD20D4282A219A00859D85 /* AppDelegate.swift in Sources */,
 				95BD20D6282A219A00859D85 /* SceneDelegate.swift in Sources */,
